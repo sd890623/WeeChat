@@ -1,0 +1,65 @@
+/*reset all content*/
+body  {
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+    font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 82.5%;
+}
+/*chat container*/
+
+/*
+
+#output {
+	border: 1px solid #A9F5A9;
+	background-color: #FFF;
+	position: fixed;
+	top: 80px;
+	bottom: 50px;
+	width: 98%;
+	overflow: auto;
+}
+*/
+#output p {
+	position: relative;
+	width: 90%;
+	top: 50px;
+	padding: 3px;
+	background: orange;
+	border: orange solid 7px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: left;
+	padding: 5px 35px 5px 50px;
+	margin: 0 auto;
+}
+/*#output p:before
+{
+	content: "";
+position: absolute;
+top: 78px;
+left: 646px;
+border-style: solid;
+border-width: 23px 20px 0;
+border-color: #7F7F7F transparent;
+display: block;
+width: 0;
+z-index: 0;
+}*/
+#output p:after {
+	content: "";
+	position: absolute;
+	bottom: -28px;
+	left: 85%;
+	border-style: solid;
+	border-width: 28px 14px 0;
+	border-color: orange transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+
+.date1 {
+	padding: 30px 200px 10px 100px;
+}

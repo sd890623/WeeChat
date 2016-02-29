@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Project2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class> Register </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class> Login </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class> Logout </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Confirm</servlet-name>
+    <servlet-class> Confirm </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Confirm</servlet-name>
+    <url-pattern>/Confirm </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class> Delete </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Reset</servlet-name>
+    <servlet-class> Reset </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reset</servlet-name>
+    <url-pattern>/Reset </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Reminder</servlet-name>
+    <servlet-class> Reminder </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reminder</servlet-name>
+    <url-pattern>/Reminder </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FrontController</servlet-name>
+    <servlet-class> FrontController </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/createGroup </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/deleteMember</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/Account</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/deleteGroup </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/invite </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/confirmInvitation </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/goChat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Chat1</servlet-name>
+    <servlet-class>Chat1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Chat1</servlet-name>
+    <url-pattern>/Chat1</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>SimpleServer</servlet-name>
+    <servlet-class>SimpleServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleServer</servlet-name>
+    <url-pattern>/SimpleServer</url-pattern>
+  </servlet-mapping>
+</web-app>

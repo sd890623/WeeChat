@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css"
+	href="css/ui-lightness/jquery-ui-1.10.3.custom.css"></link>
+<script type="text/javascript" src="jquery/jquery-1.10.2.js"></script>
+<link type="text/css" href="css/style.css" rel="stylesheet"></link>
+
+<script type="text/javascript" src="jquery/jquery-ui-1.10.3.custom.js"></script>
+<script type="text/javascript" src="js/methodlib.js"></script>
+ 
+<title>Unfinished Chatbox</title>
+<script>
+	
+</script>
+</head>
+<body>
+	<h1 align="center";position:relative;>Unfinished Chatbox</h1>
+
+	<div id="output"></div>
+	<div
+		style="position: fixed; bottom: 10px; width: 700px; left: 30%; right: 30%; background-color: orange;">
+		<span>User: <input type="text" ; id="username" ; size="20"></input></span>
+		<span style="postion: absolute; width: 50px;">Chat:</span> <span
+			style="postion: absolute; width: 700px;"> <input type=text;
+			id="chat" ; size="50"> </input>
+		</span> <span style="postion: absolute; width: 100px;">
+			<button id="send">Button with icon only</button>
+		</span>
+	</div>
+	<div
+		style="position: fixed; bottom: 10px; width: 90px; left: 10px; background-color: orange;">
+		<button id="share">Share</button>
+	</div>
+	
+	   <!-- form to enter email address -->
+    <div id="dialog-form" title="Invite friend to chat">
+			<p class="validateTips">Enter email address</p>
+			<form name="sendInvitation" method="post" action="Chat" id="sendInvitation">
+			<fieldset>
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" />
+				<input type="hidden" name="url" id="url" value=""/>
+			</fieldset>
+			</form>
+	</div>
+	
+	<!-- loading simulation -->
+	<div id="loading" title="Please wait...">
+		<div id="progressbar"><div class="progress-label">Sending...</div></div>
+	</div>
+
+</body>
+</html>
